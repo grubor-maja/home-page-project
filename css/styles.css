@@ -3,5 +3,52 @@
     --color-secondary:#803096;
     --color-accent:#f4a405;
     --color-headings:#2a102f;
-    --color-body:#c7b3ca;
+    --color-body:#a595a8;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family:'Lato', sans-serif;
+    color:var(--color-body);
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    color: var(--color-headings);
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 7rem ;
+}
+h2 {
+    font-size: 5rem;
+}
+h3 {
+    font-size: 4rem;
+}
+/* Let the headings decide the margin above paragraph */
+p {
+    margin-top: 0; 
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1.8rem;
+    }
+    h1 {
+        font-size: 8rem;
+    }
+    h2 {
+        font-size: 3.2rem;
+    }
+    h3 {
+        font-size: 2.2rem;
+    }
 }
