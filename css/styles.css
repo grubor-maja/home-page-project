@@ -130,3 +130,19 @@ a {
 .list__bullet .list__item {
     padding-left: 0.5rem;
 }
+
+/* Icons */
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+.icon-container {
+    background:#dcdcdc;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
