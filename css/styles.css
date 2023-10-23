@@ -474,3 +474,49 @@ a {
     max-width: 1140px;
     margin: 0 auto;
   }
+
+  /* Navigation Bar */
+
+  .nav-bar {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 1 rem;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .nav-bar .icon-link {
+    width: 80px;
+    height:64px;
+  }
+  .nav-bar .icon-container {
+    width: 30px;
+    height:30px;
+    background: #ffffff00;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+  .nav-bar .icon-container .icon {
+    width: 30px;
+    height:30px;
+    opacity: 50%;
+    
+    cursor: pointer;
+  }
+
+  .nav__List {
+    width: 100%;
+  }
+  .nav__item {
+    margin-top: 10px;
+    padding: 2rem 2 rem;
+    border-bottom: 1px solid #cccccc75;
+    
+  }
+  .nav__item > a {
+    color: #ccc;
+    transition: 0.5s ease-in-out;
+  }
+  .nav__item > a:hover {
+    color: #fff;
+  }
