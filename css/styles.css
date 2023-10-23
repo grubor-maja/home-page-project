@@ -217,4 +217,19 @@ a {
     color: #ccc;
  }
 
- 
+ /* Input container */
+ .input-container {
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    display: flex;
+ }
+ .input-container .button {
+    margin: 5px;
+ }
+
+ .input-container .input {
+    border: 0;
+    flex-grow: 1;
+    padding: 1 rem;
+ }
+
