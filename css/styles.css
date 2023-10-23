@@ -109,3 +109,24 @@ a {
         font-size: 1.2rem;
     }
 }
+
+/* Lists */
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    color: var(--color-headings);
+
+}
+.list--horizontal .list__item {
+    display: inline-block;
+    margin-right:2rem;
+}
+.list--bullet {
+    list-style-image: url(../images/bullet.png);
+    padding-left: 5rem;
+    
+}
+.list__bullet .list__item {
+    padding-left: 0.5rem;
+}
