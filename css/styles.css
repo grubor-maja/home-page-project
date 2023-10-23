@@ -58,6 +58,7 @@ p {
     }
     h3 {
         font-size: 2.2rem;
+        line-height: 1.1;
     }
 }
 
@@ -519,4 +520,36 @@ a {
   }
   .nav__item > a:hover {
     color: #fff;
+  }
+
+  /* Hero Section */
+
+  .hero__content {
+    padding-top: 30%;
+  }
+
+  .hero__content p {
+    font-size: 2rem;
+  }
+
+  .hero__image {
+    width: 100%;
+  }
+  .hero__content h1 {
+    font-size: 3rem;
+  }
+  .hero__content .block__heading {
+    font-size: 6rem;
+    font-weight: bold;
+    
+  }
+  .hero__content .button--block {
+    width: 50%;
+  }
+
+  @media screen and (min-width:768px) {
+    .hero__content {
+        text-align: left;
+        align-self: center;
+    }
   }
