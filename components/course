@@ -1,0 +1,58 @@
+<div class="courses">
+  <div class="course course--html">
+    <div class="card card--secondary">
+      <header class="card__title">
+        <h3 class="course__name">HTML Kurs</h3>
+        <span class="course__price">$20</span>
+        <span class="course__subtitle">Savladaj osnove HTML-a</span>
+      </header>
+      <div class="card__body">
+        <ul class="list list--bullet">
+          <li class="list__item">Struktura HTML-a</li>
+          <li class="list__item">Osnovni HTML elementi</li>
+          <li class="list__item">Linkovanje i slike</li>
+          <li class="list__item">Forme i unos podataka</li>
+        </ul>
+        <button class="button button--outline button--block">Kupi</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="course course--css">
+    <div class="card card--secondary">
+      <header class="card__title">
+        <h3 class="course__name">CSS Kurs</h3>
+        <span class="course__price">$20</span>
+        <span class="course__subtitle">Savladaj osnove CSS-a</span>
+      </header>
+      <div class="card__body">
+        <ul class="list list--bullet">
+          <li class="list__item">Selektori i stilovi</li>
+          <li class="list__item">Boje i pozadine</li>
+          <li class="list__item">Pozicioniranje i raspored</li>
+          <li class="list__item">Responzivni dizajn</li>
+        </ul>
+        <button class="button button--outline button--block">Kupi</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="course course--js">
+    <div class="card card--secondary">
+      <header class="card__title">
+        <h3 class="course__name">JavaScript Kurs</h3>
+        <span class="course__price">$30</span>
+        <span class="course__subtitle">Postani majstor JavaScript-a</span>
+      </header>
+      <div class="card__body">
+        <ul class="list list--bullet">
+          <li class="list__item">Osnove JavaScript-a</li>
+          <li class="list__item">Kontrolne strukture</li>
+          <li class="list__item">Rad sa dogadjajima</li>
+          <li class="list__item">Manipulacija DOM-om</li>
+        </ul>
+        <button class="button button--outline button--block">Kupi</button>
+      </div>
+    </div>
+  </div>
+</div>

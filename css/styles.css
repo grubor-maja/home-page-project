@@ -260,3 +260,44 @@ a {
     background: var(--color-secondary);
     color: #fff;
   }
+
+  /* Courses */
+  
+.courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.course {
+    width: 40rem;
+}
+
+.course__name {
+    color: #ffffff9c;
+    margin: 0;
+    font-weight: bold;
+    font-size: 2.2rem;
+    
+  }
+  
+  .course__price {
+    font-size: 6rem;
+  }
+  
+ 
+  .course__subtitle {
+    font-size: 2rem;
+    font-style: italic;
+    display: block;
+  }
+  
+  .course .list__item {
+    margin-bottom: 2rem;
+  }
+  
+  .course--html .card__title {
+    position: relative;
+  }
+  
+  
