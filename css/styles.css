@@ -262,7 +262,7 @@ a {
   }
 
   /* Courses */
-  
+
 .courses {
     display: flex;
     flex-direction: row;
@@ -299,5 +299,25 @@ a {
   .course--html .card__title {
     position: relative;
   }
+
+
+  /* Media */
   
+
+.media {
+    display: flex;
+    font-style: italic;
+  }
+  
+  .media__title {
+    margin-top: 0;
+  }
+  
+  .media__body {
+    margin: 0 2rem;
+  }
+  
+  .media__image {
+    margin-top: 1rem;
+  }
   
