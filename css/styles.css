@@ -169,6 +169,13 @@ a {
     transition: 0.5s ease-in-out;
     white-space: nowrap;
  }
+ .button .icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+
+ }
 
  .button--primary {
     background: var(--color-primary);
@@ -234,7 +241,7 @@ a {
  .input-container .input {
     border: 0;
     flex-grow: 1;
-    padding: 1 rem;
+    padding: 2rem;
  }
 
  /* Cards */
@@ -553,3 +560,35 @@ a {
         align-self: center;
     }
   }
+
+  /* Block Incognito */
+
+  .block-incognito h2 {
+    margin-bottom: 3rem;
+  }
+  .block-incognito .input-container {
+      box-shadow:0 0 20px 20px #dfdfdf51;
+      border: 0;
+      margin-top: 5rem;
+  }
+
+  .block-incognito__prices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: (2,5rem);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    grid-gap: 1rem;
+    
+  }
+  .block-incognito__prices .badge--secondary {
+    font-size: 2rem;
+
+  }
+
+  @media screen and (min-width: 768px) {
+  .block-incognito__prices {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
