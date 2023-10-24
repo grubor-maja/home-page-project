@@ -253,7 +253,7 @@ a {
 
 .card {
     border-radius: 5px;
-    box-shadow: 0 0 20px 10px #f3f3f3;
+    box-shadow: 0 0 20px 10px #f3f3f385;
     overflow: hidden;
   }
   
@@ -309,6 +309,9 @@ a {
   
   .course--html .card__title {
     position: relative;
+  }
+  .course--js .card {
+    box-shadow: none;
   }
 
 
@@ -590,5 +593,32 @@ a {
   @media screen and (min-width: 768px) {
   .block-incognito__prices {
     grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* Courses */
+
+.course {
+  box-shadow: 0;
+  margin: 1rem;
+  transition: 0.5s ease-in-out;
+}
+.course:hover {
+  transform: scale(1.05);
+}
+.course--main:hover {
+  transform: scale(1.2);
+}
+
+.courses-container .courses{
+  grid-gap: 2rem;
+}
+.course--main {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width:768px) {
+  .courses-container .courses {
+    flex-direction: column;
   }
 }
