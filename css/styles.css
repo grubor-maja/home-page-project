@@ -650,3 +650,23 @@ a {
     order: 2;
   }
 }
+
+/* Showcase Block */
+
+ .block-benefits h2, .block-benefits .media__title {
+  color: white;
+}
+.block-benefits .media__body {
+  color: #ffffff7d;
+}
+.block-benefits .icon-container {
+  background: #cccccc4c;
+}
+
+@media screen and (min-width: 768px) {
+  .block-showcase .grid {
+    grid-template-columns: 50% 50%;
+  }
+
+  
+}
