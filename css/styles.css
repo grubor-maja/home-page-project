@@ -854,7 +854,10 @@ header .collapsible .icon:hover {
     zoom: 1.0 !important;
   }
   .course {
-    width: 70% !important;
+    width: 90% !important;
+}
+#courses > ul {
+  width: 100vw !important;
 }
 
 }
