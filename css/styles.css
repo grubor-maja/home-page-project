@@ -21,6 +21,8 @@ body {
     font-family:'Lato', sans-serif;
     font-size: 2.2rem;
     line-height: 1.5;
+    overflow-x: hidden;
+    
 }
 
 h1, h2, h3 {
@@ -807,6 +809,10 @@ header .collapsible .icon:hover {
   }
   .media_body {
     margin-top: 3rem;
+  }
+  #benefits {
+    display: flex;
+    flex-direction: column;
   }
   #benefits li {
     margin: 10rem 0;
