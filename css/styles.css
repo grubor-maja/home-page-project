@@ -844,6 +844,11 @@ header .collapsible .icon:hover {
     background: none;
   }
   
+  @viewport {
+    width: device-width;
+    zoom: 1.0;
+  }
+  
 
 }
 
