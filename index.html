@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>MG</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,6 +14,330 @@
     <link rel="stylesheet" href="css/normalize.css" />
   </head>
   <body>
+    <header>
+      <nav class="nav-bar collapsible">
+        <a href="/"
+          ><img src="images/logo.png" alt="Logo" class="icon-link"
+        /></a>
+        <span class="icon-container nav__toggler">
+          <img class="icon" src="images/burger-menu.png"
+        /></span>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#courses">Our Coursess</a></li>
+          <li class="nav__item"><a href="#about">About Us</a></li>
+          <li class="nav__item"><a href="#benefits">Benefits</a></li>
+          <li class="nav__item"><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="block block--dark block--skewed-left">
+      <div class="container grid grid--cols-2 hero-container">
+        <div class="hero__content">
+          <h1 class="block__heading">Coding Made Simple</h1>
+          <p class="hero__subtitle">
+            Master the Art of Web Coding: Dive Deep into HTML, CSS, and
+            JavaScript with Expert Guidance
+          </p>
+          <a href="#" class="button button--accent button--block">LEARN MORE</a>
+        </div>
+        <img src="images/image02.png" alt="Hero image" class="hero__image" />
+      </div>
+    </section>
+    <section class="block container block-incognito" id="courses">
+      <header class="block__header">
+        <h2>Starting at 10$ per month</h2>
+        <p>
+          Find Your Perfect Course: Easily Discover the Ideal Course by
+          Searching with Skill Level and Topic Filters
+        </p>
+      </header>
+      <div class="input-container">
+        <input type="text" class="input" placeholder="Enter text here..." />
+        <button class="button button--accent">
+          <img class="icon" src="images/search-white.png" />Search
+        </button>
+      </div>
+      <ul class="list block-incognito__prices">
+        <li><span class="badge badge--secondary">Beginner</span></li>
+        <li>Elementary</li>
+        <li>Intermidiate</li>
+        <li>Advanced</li>
+        <li>Expert</li>
+        <li>Master</li>
+      </ul>
+    </section>
+    <div class="courses">
+      <div class="course course--html">
+        <div class="card card--secondary">
+          <header class="card__title">
+            <h3 class="course__name" id="html">HTML Course</h3>
+            <span class="course__price">$10</span>
+            <span class="course__subtitle">Master the Basics of HTML</span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--bullet">
+              <li class="list__item">HTML Structure</li>
+              <li class="list__item">Basic HTML elements</li>
+              <li class="list__item">Linking and images</li>
+              <li class="list__item">Forms and tables</li>
+            </ul>
+            <button class="button button--outline button--block">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="course course--css">
+        <div class="card card--secondary">
+          <header class="card__title">
+            <h3 class="course__name" id="css">CSS Course</h3>
+            <span class="course__price">$20</span>
+            <span class="course__subtitle">Master the Basics of CSS</span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--bullet">
+              <li class="list__item">Selectors and styles</li>
+              <li class="list__item">Typography and colors</li>
+              <li class="list__item">Layout and positioning</li>
+              <li class="list__item">Responsive design</li>
+            </ul>
+            <button class="button button--outline button--block">Buy</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="course course--js">
+        <div class="card card--secondary">
+          <header class="card__title">
+            <h3 class="course__name" id="js">JavaScript Kurs</h3>
+            <span class="course__price">$30</span>
+            <span class="course__subtitle"
+              >Master the Basics of JavaScript</span
+            >
+          </header>
+          <div class="card__body">
+            <ul class="list list--bullet">
+              <li class="list__item">JavaScript basics</li>
+              <li class="list__item">Control structures</li>
+              <li class="list__item">Event handling</li>
+              <li class="list__item">DOM manipulation</li>
+            </ul>
+            <button class="button button--outline button--block">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="block container">
+      <header class="block__header">
+        <h2>Why choose us?</h2>
+        <p>
+          Unlock Your Coding Potential and Elevate Your Skills with Our Courses
+        </p>
+      </header>
+      <article class="features grid grid--cols-2" id="about">
+        <div class="features__content">
+          <span class="icon-container">
+            <img class="icon" src="images/social.png"
+          /></span>
+          <h3>Learning Through Examples</h3>
+          <p>
+            Our courses empower you to learn HTML, CSS, and JavaScript through
+            practical examples. Gain valuable coding skills by working on real
+            projects and exercises.
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <img
+          src="images/image03.png"
+          alt="Feature image"
+          class="features__image"
+        />
+      </article>
+
+      <article class="features grid grid--cols-2">
+        <div class="features__content">
+          <span class="icon-container">
+            <img class="icon" src="images/study.png"
+          /></span>
+          <h3>Comprehensive Study Materials</h3>
+          <p>
+            Access a wealth of learning resources, including tutorials, guides,
+            and reference materials. Learn at your own pace with our rich
+            collection of educational content.
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <img
+          src="images/image02.png"
+          alt="Feature image"
+          class="features__image"
+        />
+      </article>
+
+      <article class="features grid grid--cols-2">
+        <div class="features__content">
+          <span class="icon-container">
+            <img class="icon" src="images/write.png"
+          /></span>
+          <h3>1-on-1 Mentorship</h3>
+          <p>
+            Receive personalized guidance and mentorship from experienced
+            instructors. Our 1-on-1 mentorship program ensures that you get the
+            support you need to excel in your HTML, CSS, and JavaScript journey.
+          </p>
+          <a href="#" class="link-arrow">Learn More</a>
+        </div>
+        <img
+          src="images/image01.png"
+          alt="Feature image"
+          class="features__image"
+        />
+      </article>
+    </section>
+    <section class="block block--dark block--skewed-right block-benefits">
+      <header class="block__header">
+        <h2>Benefits of our course</h2>
+      </header>
+      <div class="container grid grid--cols-2" id="benefits">
+        <ul class="list">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <span class="icon-container">
+                  <img class="icon" src="../images/strength.png"
+                /></span>
+              </div>
+              <div class="media__body double">
+                <h3 class="media__title">Discover Your Strength</h3>
+                <p>
+                  Choose the technology you excel in or let us guide you to the
+                  one that suits you best. Unearth your true potential.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <span class="icon-container">
+                  <img class="icon" src="../images/handson.png"
+                /></span>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Hands-On Experience</h3>
+                <p>
+                  Our courses are rooted in real-world industrial practices.
+                  Graduates receive an experience certificate for skills that
+                  matter in the job market.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <span class="icon-container">
+                  <img class="icon" src="../images/flexible.png"
+                /></span>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Flexible Learning</h3>
+                <p>
+                  Learn at your own pace and on your schedule. We offer a
+                  variety of course formats to fit your lifestyle
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="benefits__image">
+          <img src="images/features01.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="block testimonial-block">
+      <header class="block">
+        <h2>What Our Course Graduates Say About Us</h2>
+        <p>Student Voices: Hear What Our Graduates Have to Say</p>
+      </header>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="testimonial__image">
+            <img
+              class="testimonial__image"
+              src="images/student.jpg"
+              alt="Customer testimonial"
+            />
+          </div>
+
+          <blockquote class="quote" id="testimonials">
+            <p class="quote__text">
+              The course provided a fantastic foundation for web development.
+              The instructors were knowledgeable, and the hands-on projects
+              really solidified my understanding of HTML, CSS, and JavaScript.
+            </p>
+            <footer>
+              <div class="media">
+                <div class="media__body">
+                  <h4 class="author">Ashley Davis</h4>
+                  <p>Student</p>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <div class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">COURSES</h2>
+            <span class="icon-container">
+              <img class="icon" src="images/arrow.png" />
+            </span>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#html">HTML</a></li>
+              <li><a href="#css">CSS</a></li>
+              <li><a href="#js">JavaScript</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">PRODUCTS</h2>
+            <span class="icon-container">
+              <img class="icon" src="images/arrow.png" />
+            </span>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#benefits">Benefits</a></li>
+              <li><a href="#courses">Courses</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">About Us</h2>
+            <span class="icon-container">
+              <img class="icon" src="images/arrow.png" />
+            </span>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+          </div>
+        </div>
+        <section class="footer__logo">
+          <img src="images/logo.png" alt="Logo" />
+          <p class="footer__text">Copyright 2023 Maja Grubor</p>
+        </section>
+      </div>
+    </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
