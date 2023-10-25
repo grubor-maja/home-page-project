@@ -859,6 +859,9 @@ header .collapsible .icon:hover {
 #courses > ul {
   width: 100vw !important;
 }
+.courses  {
+align-items: center;
+}
 
 }
 
