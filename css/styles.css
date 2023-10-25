@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  background: #fff;
+    background: #fff;
     color:var(--color-body);
     font-family:'Lato', sans-serif;
     font-size: 2.2rem;
@@ -828,6 +828,13 @@ header .collapsible .icon:hover {
   .nav-bar__right .icon-container {
     align-self: end;
   }
+  .block-incognito .input-container {
+    margin-bottom: 7rem;
+  } 
+  .input-container .input {
+    width: 100%;
+  }
+  
 
 }
 
