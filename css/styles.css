@@ -853,7 +853,9 @@ header .collapsible .icon:hover {
     width: device-width !important;
     zoom: 1.0 !important;
   }
-  
+  .course {
+    width: 70% !important;
+}
 
 }
 
